@@ -2,23 +2,30 @@
 
 Senior Performance analyst, EPAM Systems.
 
-## Contacts:
+
 ___
+
+
+## Contacts:
+
 
 * Email: <vtlk97@gmail.com>
 * LinkedIn: [linkedin](https://www.linkedin.com/in/victor-loiko-18814218b/)
 * ResearchGate: [RG](https://www.researchgate.net/profile/Victor-Loiko)
 * Mobile: +375 (44) 750-78-10
-
-## Summary:
 ___
 
+## Summary:
+
+
 3 years in performance analysis and optimization. 1 year of experience as a performance technical lead of the projects. Participated in 4 global e-commerce projects. Skilled in performance testing, monitoring, root cause analysis, architecture bottleneck identification. Graduated from Physics Faculty, Belarusian State University. PhD student of Department of Theoretical Physics and Astrophysics, Belarusian State University.
+
+___
 
 
 ## Experience
 
-___
+
 
 ### *Performance Analyst* – EPAM Systems – from August 2018 to December 2020 
 
@@ -48,9 +55,10 @@ ___
 **Tools**: JMeter, Gatling, Docker, Grafana, InfluxDB, Jenkins, GitLab, Ansible, Dynatrace, Jaeger, Prometheus, ELK, JProfiler, JIRA.
 
 
+___
 
 ## Education:
-___
+
 
 `2014-2019` Specialist,  Physics Faculty, Belarusian State University;
 
@@ -58,8 +66,10 @@ ___
 
 `2020-present` Ph.D. student, Department of Theoretical Physics and Astrophysics, Belarusian State University.
 
+___
+
 
 ## English:
-___
+
 
 Upper-Intermediate (B2+).
