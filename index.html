@@ -6,55 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Victor Loiko</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+
+  <div class="header" id="header">
+    <header>
+      <nav class="navbar" id="navbar">
+        <a class="dropdown">&#9776;</a>
+        <a href="#summary">Summary</a>
+        <a href="#education">Educations</a>
+        <a href="#english">English</a>
+        <a href="#contacts">Contacts</a>
+        <a href="#experience">Experience</a>
+        <a href="#code">Code</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </header>
+  </div>
+
+  <div class="main">
     <main>
-      <nav>
-        <img class="cv_profile_photo" src="./images/me.jpg" alt="Photo">
-        <div class="cv_identity">
-          <h1>Victor Loiko</h1>
-          <p>Senior Performance Analyst</p>
+      <aside>
+        <div id="summary">
+          <figure>
+            <img class="cv_profile_photo" src="./images/me.jpg" alt="Photo">
+          </figure>
+
+          <div class="cv_identity">
+            <h1>Victor Loiko</h1>
+            <p>Senior Performance Analyst</p>
+          </div>
+          <section class="cv_summary">
+            <h2>Summary:</h2>
+            <p>
+              3 years in performance analysis and optimization.
+              1 year of experience as a performance technical lead of the projects.
+              Participated in 4 global e-commerce projects.
+              Skilled in performance testing, monitoring, root cause analysis, architecture bottleneck identification.
+              Graduated from Physics Faculty, Belarusian State University. PhD student of Department of Theoretical Physics and Astrophysics, Belarusian State University.
+            </p>
+            <!-- <hr> -->
+          </section>
         </div>
 
-        <article class="cv_summary">
-          <h2>Summary:</h2>
-          <p>
-            3 years in performance analysis and optimization.
-            1 year of experience as a performance technical lead of the projects.
-            Participated in 4 global e-commerce projects.
-            Skilled in performance testing, monitoring, root cause analysis, architecture bottleneck identification.
-            Graduated from Physics Faculty, Belarusian State University. PhD student of Department of Theoretical Physics and Astrophysics, Belarusian State University.
-          </p>
-          <hr>
-        </article>
 
         <div class="cv_nav_content">
-          <article class="cv_education">
+          <section class="cv_education" id="education">
             <h2>Education:</h2>
             <ul>
               <li>
-                <div class="years">2014-2019</div>
+                <h4 class="years">2014-2019</h4>
                 <div class="speciality">Specialist, Physics Faculty, Belarusian State University;</div>
               </li>
               <li>
-                <div class="years">2019-2020</div>
+                <h4 class="years">2019-2020</h4>
                 <div class="speciality">Master, Department of Theoretical Physics and Astrophysics, Belarusian State University;</div>
               </li>
               <li>
-                <div class="years">2020-present</div>
+                <h4 class="years">2020-present</h4>
                 <div class="speciality">Ph.D. student, Department of Theoretical Physics and Astrophysics, Belarusian State University.</div>
               </li>
             </ul>
-            <hr>
-          </article>
+            <!-- <hr> -->
+          </section>
 
-          <article class="cv_english">
+          <section class="cv_english" id="english">
             <h2>English:</h2>
             <p>Upper-Intermediate (B2+).</p>
-            <hr>
-          </article>
+            <!-- <hr> -->
+          </section>
 
-          <article class="cv_contacts">
+          <section class="cv_contacts" id="contacts">
             <h2>Contacts:</h2>
             <ul>
               <li>
@@ -99,15 +123,15 @@
 
               </li>
             </ul>
-            <hr>
-          </article>
+            <!-- <hr> -->
+          </section>
         </div>
+      </aside>
 
-      </nav>
-      <div class="cv_experience">
-        <article>
+      <div class="cv_experience" id="experience">
+        <section class="experience">
           <h2>Experience</h2>
-          <hr>
+          <!-- <hr> -->
           <h3> <em>Performance Analyst</em> – EPAM Systems – from August 2018 to December 2020</h3>
           <ul>
             <li>Worked on 9 projects in total with different architecture solutions and performance testing and monitoring tool-set based on project needs;</li>
@@ -137,12 +161,76 @@
             </ul>
             <p class="technologies"><strong>Technologies</strong>: AWS, YC, Couchbase, PostgreSQL, Oracle DB, Oracle WebLogic, OHS, F5, Hybris, Java, Node.js, Linux, Git.</p>
             <p class="tools"><strong>Tools</strong>: JMeter, Gatling, Docker, Grafana, InfluxDB, Jenkins, GitLab, Ansible, Dynatrace, Jaeger, Prometheus, ELK, JProfiler, JIRA.</p>
-            <hr>
-        </article>
+            <!-- <hr> -->
+        </section>
+
+        <div id="code">
+          <section>
+            <h2>Code example</h2>
+            <pre><code class="js_code">
+function absentVowel(x){
+  return 'aeiou'.split('').reduce(
+      (prev, current, index) =&ht {
+      return (x.toLowerCase().indexOf(current) == -1) ? index : prev
+      }, -1)
+  }
+            </code></pre>
+          </section>
+        </div>
+
+          <div class="projects" id="projects">
+            <section>
+              <h2>Projects</h2>
+              <div class="phys_projects">
+
+                <div class="q_balls">
+
+                  <figure>
+                    <a href="https://arxiv.org/abs/1805.11929" target="_blank">
+                      <img src="./images/q_balls.png" alt="Q-balls without potential">
+                    </a>
+                    <figcaption>
+                      Q-balls in Friedberg-Lee-Sirlin with vanishing potential. <b>Technologies</b>: Wolfram, C++, Origin, Latex.
+                    </figcaption>
+                  </figure>
+
+                </div>
+
+                <div class="g_q_balls">
+
+                    <figure>
+                      <a href="https://arxiv.org/abs/1906.01943" target="_blank">
+                        <img src="./images/g_q_balls.png" alt="Q-balls in gFLS">
+                      </a>
+                      <figcaption>
+                        Q-balls in gauged Friedberg-Lee-Sirlin. <b>Technologies</b>: Wolfram, C++, Origin, Latex.
+                      </figcaption>
+                    </figure>
+
+                </div>
+
+                <div class="q_chains">
+
+                  <figure>
+                    <a href="https://arxiv.org/abs/2012.01052" target="_blank">
+                      <img src="./images/q_chains.png" alt="Q-chains in gFLS">
+                    </a>
+                    <figcaption>
+                      Q-chains in gauged Friedberg-Lee-Sirlin. <b>Technologies</b>: Wolfram, C++, Origin, Latex.
+                    </figcaption>
+                  </figure>
+
+                </div>
+
+              </div>
+            </section>
+          </div>
+
       </div>
-
     </main>
+  </div>
 
+  <div class="footer">
     <footer>
       <div class="footer_logo">
         <a href="https://rs.school/js/">
@@ -158,8 +246,13 @@
         </a>
       </div>
     </footer>
+  </div>
 
-    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="./js/actions.js"></script>
 
 </body>
 </html>
