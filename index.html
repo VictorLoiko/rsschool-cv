@@ -170,7 +170,7 @@
             <pre><code class="js_code">
 function absentVowel(x){
   return 'aeiou'.split('').reduce(
-      (prev, current, index) =&ht {
+      (prev, current, index) =&gt; {
       return (x.toLowerCase().indexOf(current) == -1) ? index : prev
       }, -1)
   }
